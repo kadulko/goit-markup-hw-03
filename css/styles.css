@@ -1,0 +1,156 @@
+:root {
+  --highlight-color: rgba(33, 150, 243, 1);
+  --dark-background-color: rgba(47, 48, 58, 1);
+  --white-background-color: rgba(255, 255, 255, 1);
+  --gray-background-color: rgba(245, 244, 250, 1);
+  --basic-text-color: rgba(117, 117, 117, 1);
+  --dark-text-color: rgba(33, 33, 33, 1);
+  --white-text-color: rgba(255, 255, 255, 1);
+  --white-footer-text-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: "Roboto", "Calibri", sans-serif;
+  color: var(--basic-text-color);
+  background: var(--white-background-color);
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--dark-text-color);
+}
+.highlight {
+  color: var(--highlight-color);
+}
+.dark-background {
+  background: var(--dark-background-color);
+  color: white;
+}
+.gray-background {
+  background: var(--gray-background-color);
+}
+.menu a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--dark-text-color);
+}
+.menu a:hover,
+.menu a:focus {
+  color: var(--highlight-color);
+}
+.haeder-contact-data a {
+  color: var(--basic-text-color);
+  text-decoration: none;
+}
+.haeder-contact-data a:hover,
+.haeder-contact-data a:focus {
+  color: var(--highlight-color);
+}
+.footer-contact-data a {
+  color: var(--white-footer-text-color);
+  text-decoration: none;
+}
+.footer-contact-data a:hover,
+.footer-contact-data a:focus {
+  color: var(--highlight-color);
+}
+
+footer address {
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.upper-section h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.upper-section button {
+  width: 200px;
+  height: 50px;
+  background: var(--highlight-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--white-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.middle-section h3 {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-text-color);
+}
+.section-haeder {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-text-color);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-text-color);
+}
+.job-position {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--dark-text-color);
+}
+.project-scope {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+.portfolio-filter li {
+  display: inline;
+}
+.portfolio-filter button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+}
+.portfolio-filter button:hover,
+.portfolio-filter button:focus {
+  background: var(--highlight-color);
+  color: var(--white-text-color);
+}
+.no-list-bullet {
+  list-style-type: none;
+}
