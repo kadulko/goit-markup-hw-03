@@ -175,7 +175,7 @@ header {
 .middle-section ul {
   display: flex;
   justify-content: space-between;
-  flex-basis: calc(100%-90px / 4);
+  flex-basis: calc((100%-90px) / 4);
   gap: 30px;
 }
 .middle-section h3 {
